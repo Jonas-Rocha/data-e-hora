@@ -42,3 +42,25 @@ console.log(date.getMinutes());
 
 // Segundos
 console.log(date.getSeconds());
+
+let date2 = new Date("June 10, 2025 12:34:00");
+
+// Modificar o ano.
+date2.setFullYear(2030);
+
+// Modificar o mês
+date2.setMonth(10);
+
+// Modificar o dia
+date2.setDate(20);
+
+// Modificar a hora
+date2.setHours(20);
+
+// Modificar o minuto
+date2.setMinutes(15);
+
+// Modificar o segundo
+date2.setSeconds(10);
+
+console.log(date2);
