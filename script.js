@@ -80,3 +80,14 @@ let hour = date3.getHours();
 let minutes = date3.getMinutes();
 
 console.log(`${day}/${month}/${year} às ${hour}:${minutes}`);
+
+let date4 = new Date("2025-06-10T13:42:00");
+
+// Converte para String.
+console.log(date4.toString());
+
+// Retorna somente a data.
+console.log(date4.toDateString());
+
+// Retorna somente a hora.
+console.log(date4.toTimeString());
