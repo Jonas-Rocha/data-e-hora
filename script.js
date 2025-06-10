@@ -64,3 +64,19 @@ date2.setMinutes(15);
 date2.setSeconds(10);
 
 console.log(date2);
+
+let date3 = new Date("2025-06-09T12:43:00");
+
+// Formata para o dia sempre ter 2 dígitos.
+let day = date3.getDate().toString().padStart(2, "0");
+console.log(day);
+
+// Formata para o mês sempre ter 2 dígitos.
+let month = (date3.getMonth() + 1).toString().padStart(2, "0");
+console.log(month);
+
+let year = date3.getFullYear();
+let hour = date3.getHours();
+let minutes = date3.getMinutes();
+
+console.log(`${day}/${month}/${year} às ${hour}:${minutes}`);
