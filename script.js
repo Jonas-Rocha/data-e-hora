@@ -17,3 +17,28 @@ console.log(new Date("2025-06-10T12:23:00"));
 
 // Definindo data e hora com string também.
 console.log(new Date("June 10, 2025 12:24:00"));
+
+let date = new Date("2025-06-10T12:27:00");
+
+// Dia da semana contando de 0 à 6 (domingo é 0)
+console.log(date.getDay());
+// Dias da semana: 0 Domingo, 1 Segunda, 2 Terça etc...
+
+// Dia do mês
+console.log(date.getDate());
+// Dias do mês também conta a partir do 0.
+
+// Mês (0-11)
+console.log(date.getMonth() + 1);
+
+// Ano
+console.log(date.getFullYear());
+
+// Horas
+console.log(date.getHours());
+
+// Minutos
+console.log(date.getMinutes());
+
+// Segundos
+console.log(date.getSeconds());
