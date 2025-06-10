@@ -91,3 +91,13 @@ console.log(date4.toDateString());
 
 // Retorna somente a hora.
 console.log(date4.toTimeString());
+
+let date5 = new Date("2025-06-10T13:46:00");
+
+// Exibe a data e hora no formato local.
+console.log(date5.toLocaleDateString());
+console.log(date5.toLocaleTimeString());
+
+// Exibe data e hora no formato escolhido.
+console.log(date5.toLocaleDateString("en"));
+console.log(date5.toLocaleTimeString("en"));
